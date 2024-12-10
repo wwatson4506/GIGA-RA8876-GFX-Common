@@ -5,28 +5,26 @@ Communication with the GIGA R1 is accomplished using a 3/4 wire interface.
 
 ![https://github.com/wwatson4506/GIGA-RA8876-GFX-Common/blob/main/extras/RA8876_GFX_Common.jpg](https://github.com/wwatson4506/GIGA-RA8876-GFX-Common/blob/main/extras/RA8876_GFX_Common.jpg)
 
-This library is designed for use  with one of the following RA8876 drivers:
+This library is designed for use with the following RA8876 drivers:
 
-- https://github.com/wwatson4506/TeensyRA8876-8080
-or:
-- https://github.com/wwatson4506/TeensyRA8876-SPI
+- https://github.com/wwatson4506/GIGA-RA8876-SPI
 
 ***
 ## LIBRARY INSTALLATION
-1. Unzip **TeensyRA8876-GFX-Common** into the **Arduino/libraries**  folder.
-2. Unzip **TeensyRA8876-8080** or **TeensyRA8876-SPI ** into the **Arduino/libraries** folder.
+1. Unzip **GIGA-RA8876-GFX-Common** into the **Arduino/libraries**  folder.
+2. Unzip **GIGA-RA8876-SPI** into the **Arduino/libraries** folder.
 ***
 
 ### PINOUTS
-Pinouts are defined in the driver libraries.
+Pinouts are defined in the driver library.
 ***
 ### CONFIG FILES
-Both 8080 Parallel and SPI libraries have config file.
-Config files for 8080 and SPI are found in the driver libraries.:
+The SPI librariy has a config file.
+the config file for SPI is found in the driver library.:
 ***
 
 ### EXAMPLES
-Are found in the driver libraries.
+Are found in the driver library.
 ***
 
 # CREDITS
@@ -34,7 +32,7 @@ Major work on this library was done by the following PJRC forum members:
 
 @mjs513, @KurtE, @MorganS, @rezo and @K7MDL (Keith).
 
-They added functions to be compatible with other display libraries, performed a major rework and helped in debugging the code. The 8080 parallel FlexIO driver is based on work done by @rezo.
+They added functions to be compatible with other display libraries, performed a major rework and helped in debugging the code.
 
 ***
 
@@ -48,4 +46,4 @@ PJRC Forum Threads:
 - https://forum.pjrc.com/index.php?threads/recommendations-for-10-tft-display-with-touchscreen-for-teensy-4-1.75666/
 ***
 
-# This is WIP.   USE AT YOUR OWN RISK.  There are no guarantees when using this library. More to come.
+# This is WIP.   USE AT YOUR OWN RISK.  There are no guarantees when using this library. More to come sometime.
